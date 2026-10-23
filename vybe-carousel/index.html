@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Glassmorphism Card Carousel</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Glassmorphism Card Carousel</h1>
+
+  <div class="carousel-wrapper">
+    <button class="nav-btn prev" aria-label="Previous">‹</button>
+    
+    <div class="carousel" id="carousel">
+      <div class="card" data-index="0">
+        <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=600&q=80" alt="Mountain">
+        <div class="card-content">
+          <h3>Alpine Peaks</h3>
+          <p>Breathe the crisp mountain air and chase the horizon.</p>
+        </div>
+      </div>
+      <div class="card" data-index="1">
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&q=80" alt="Beach">
+        <div class="card-content">
+          <h3>Golden Shores</h3>
+          <p>Soft sand, turquoise water, and endless summer days.</p>
+        </div>
+      </div>
+      <div class="card" data-index="2">
+        <img src="https://images.unsplash.com/photo-1519681393784-d120267933ba?w=600&q=80" alt="Forest">
+        <div class="card-content">
+          <h3>Misty Woods</h3>
+          <p>Walk among ancient trees wrapped in morning fog.</p>
+        </div>
+      </div>
+      <div class="card" data-index="3">
+        <img src="https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=600&q=80" alt="Lake">
+        <div class="card-content">
+          <h3>Crystal Lake</h3>
+          <p>Mirror-like water reflecting the quiet sky above.</p>
+        </div>
+      </div>
+      <div class="card" data-index="4">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=600&q=80" alt="Valley">
+        <div class="card-content">
+          <h3>Green Valley</h3>
+          <p>Rolling hills and wildflowers under a soft sun.</p>
+        </div>
+      </div>
+    </div>
+
+    <button class="nav-btn next" aria-label="Next">›</button>
+  </div>
+
+  <div class="dots" id="dots"></div>
+  <p class="hint">Drag or swipe • Click arrows or dots</p>
+
+  <script src="script.js"></script>
+</body>
+</html>
